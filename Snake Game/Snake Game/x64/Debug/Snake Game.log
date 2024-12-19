@@ -1,0 +1,6 @@
+﻿  Snake Game.cpp
+C:\Users\mehdi\source\repos\Snake Game\Snake Game.cpp(30,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mehdi\source\repos\Snake Game\Snake Game.cpp(30,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\mehdi\source\repos\Snake Game\Snake Game.cpp(34,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\mehdi\source\repos\Snake Game\Snake Game.cpp(35,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Snake Game.vcxproj -> C:\Users\mehdi\source\repos\Snake Game\x64\Debug\Snake Game.exe

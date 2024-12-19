@@ -1,0 +1,3 @@
+C:\Users\mehdi\source\repos\Snake Game\x64\Debug\raylib.dll
+C:\Users\mehdi\source\repos\Snake Game\x64\Debug\glfw3.dll
+C:\Users\mehdi\source\repos\Snake Game\Snake Game\x64\Debug\Snake Ga.00CAAE7B.Up2Date

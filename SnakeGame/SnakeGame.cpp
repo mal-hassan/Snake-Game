@@ -153,8 +153,6 @@ int main()
 
     Game game = Game();
 
-    HandleInput();
-
     while (WindowShouldClose() == false) 
     {
 

@@ -132,6 +132,7 @@ class Game
     {
         snake.Update();
         CheckCollisionWithFood();
+        CheckCollisionWithEdges();
         
     }
 
@@ -142,6 +143,23 @@ class Game
             food.position = food.GenerateRandomPos(snake.body);
             snake.addSegment = true;
         }
+    }
+
+    void CheckCollisionWithEdges()
+    {
+        if(snake.body[0].x == cellCount || snake.body[0].x == -1)
+        {
+            GameOver();
+        }
+        if(snake.body[0].y == cellCount || snake.body[0].y == -1)
+        {
+            GameOver();
+        }
+    }
+
+    void GameOver()
+    {
+        cout << "Game Over!" << endl;
     }
 };
 
